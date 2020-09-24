@@ -12,6 +12,7 @@ import { TodayComponent } from './today/today.component';
 import { NextComponent } from './next/next.component';
 import { MenuComponent } from './menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TrainingComponent } from './training/training.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
       TeamComponent,
       TodayComponent,
       NextComponent,
-      MenuComponent
+      MenuComponent,
+      TrainingComponent
         ],
   imports: [
     BrowserModule,
